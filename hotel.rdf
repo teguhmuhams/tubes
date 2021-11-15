@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+    <rdf:Description rdf:about="https://id.wikipedia.org/wiki/">
+        <dc:type>Luxury Rooms</dc:type>
+        <dc:price>Rp. 100000000000000</dc:price>
+        <dc:review>5/5</dc:review>
+        <dc:description>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, velit. Minima ullam eligendi aut nihil asperiores nisi incidunt obcaecati sequi corrupti nemo nostrum sunt, amet corporis? Eum vel necessitatibus ea?</dc:description>
+        <dc:image>https://media.beritagar.id/2019-12/badf226ccfe0e0a2a56c64a994211b6211be178b.jpg</dc:image>
+    </rdf:Description>
+
+</rdf:RDF>
