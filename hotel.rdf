@@ -1,12 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:foaf="http://xmlns.com/foaf/0.1/">
 
-    <rdf:Description rdf:about="https://id.wikipedia.org/wiki/">
-        <dc:type>Luxury Rooms</dc:type>
-        <dc:price>Rp. 100000000000000</dc:price>
-        <dc:review>5/5</dc:review>
+
+    <rdf:Description rdf:about="https://www.foyafoya.com/rooms/">
+        <dc:rooms rdf:resource="https://www.foyafoya.com/rooms/grand-deluxe" />
+        <dc:rooms rdf:resource="https://www.foyafoya.com/rooms/ultra-superior" />
+        <dc:rooms rdf:resource="https://www.foyafoya.com/rooms/classic" />
+        <dc:rooms rdf:resource="https://www.foyafoya.com/rooms/suite" />
+        <dc:rooms rdf:resource="https://www.foyafoya.com/rooms/superior" />
+        <dc:rooms rdf:resource="https://www.foyafoya.com/rooms/standard" />
+        <dc:rooms rdf:resource="https://www.foyafoya.com/rooms/deluxe" />
+        <dc:rooms rdf:resource="https://www.foyafoya.com/rooms/presidental-suite" />
+        <dc:rooms rdf:resource="https://www.foyafoya.com/rooms/foya-suite" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://www.foyafoya.com/rooms/grand-deluxe">
+        <dc:type>Grand Deluxe Rooms</dc:type>
+        <dc:price>IDR 2.000.000</dc:price>
+        <dc:review>4.7</dc:review>
+        <dc:guest>4</dc:guest>
+        <dc:description>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, velit. Minima ullam eligendi aut nihil asperiores nisi incidunt obcaecati sequi corrupti nemo nostrum sunt, amet corporis? Eum vel necessitatibus ea?    
+        </dc:description>
+        <dc:image>https://media.beritagar.id/2019-12/badf226ccfe0e0a2a56c64a994211b6211be178b.jpg</dc:image>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://www.foyafoya.com/rooms/ultra-superior">
+        <dc:type>Ultra Superior Rooms</dc:type>
+        <dc:price>IDR 10.000.000</dc:price>
+        <dc:review>5.0</dc:review>
+        <dc:guest>5</dc:guest>
         <dc:description>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, velit. Minima ullam eligendi aut nihil asperiores nisi incidunt obcaecati sequi corrupti nemo nostrum sunt, amet corporis? Eum vel necessitatibus ea?</dc:description>
         <dc:image>https://media.beritagar.id/2019-12/badf226ccfe0e0a2a56c64a994211b6211be178b.jpg</dc:image>
     </rdf:Description>
 
+    <rdf:Description rdf:about="https://www.foyafoya.com/rooms/classic">
+        <dc:type>Classic Rooms</dc:type>
+        <dc:price>IDR 500.000</dc:price>
+        <dc:review>4.7</dc:review>
+        <dc:guest>1</dc:guest>
+        <dc:description>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, velit. Minima ullam eligendi aut nihil asperiores nisi incidunt obcaecati sequi corrupti nemo nostrum sunt, amet corporis? Eum vel necessitatibus ea?</dc:description>
+        <dc:image>https://media.beritagar.id/2019-12/badf226ccfe0e0a2a56c64a994211b6211be178b.jpg</dc:image>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://www.foyafoya.com/rooms/suite">
+        <dc:type>Suite Rooms</dc:type>
+        <dc:price>IDR 700.000</dc:price>
+        <dc:review>4.5</dc:review>
+        <dc:guest>3</dc:guest>
+        <dc:description>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, velit. Minima ullam eligendi aut nihil asperiores nisi incidunt obcaecati sequi corrupti nemo nostrum sunt, amet corporis? Eum vel necessitatibus ea?</dc:description>
+        <dc:image>https://media.beritagar.id/2019-12/badf226ccfe0e0a2a56c64a994211b6211be178b.jpg</dc:image>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://www.foyafoya.com/rooms/superior">
+        <dc:type>Superior Rooms</dc:type>
+        <dc:price>IDR 1.000.000</dc:price>
+        <dc:review>4.7</dc:review>
+        <dc:guest>2</dc:guest>
+        <dc:description>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, velit. Minima ullam eligendi aut nihil asperiores nisi incidunt obcaecati sequi corrupti nemo nostrum sunt, amet corporis? Eum vel necessitatibus ea?</dc:description>
+        <dc:image>https://media.beritagar.id/2019-12/badf226ccfe0e0a2a56c64a994211b6211be178b.jpg</dc:image>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://www.foyafoya.com/rooms/standard">
+        <dc:type>Standard Rooms</dc:type>
+        <dc:price>IDR 400.000</dc:price>
+        <dc:review>3.0</dc:review>
+        <dc:guest>2</dc:guest>
+        <dc:description>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, velit. Minima ullam eligendi aut nihil asperiores nisi incidunt obcaecati sequi corrupti nemo nostrum sunt, amet corporis? Eum vel necessitatibus ea?</dc:description>
+        <dc:image>https://media.beritagar.id/2019-12/badf226ccfe0e0a2a56c64a994211b6211be178b.jpg</dc:image>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://www.foyafoya.com/rooms/deluxe">
+        <dc:type>Deluxe Rooms</dc:type>
+        <dc:price>IDR 1.200.000</dc:price>
+        <dc:review>4.5</dc:review>
+        <dc:guest>3</dc:guest>
+        <dc:description>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, velit. Minima ullam eligendi aut nihil asperiores nisi incidunt obcaecati sequi corrupti nemo nostrum sunt, amet corporis? Eum vel necessitatibus ea?</dc:description>
+        <dc:image>https://media.beritagar.id/2019-12/badf226ccfe0e0a2a56c64a994211b6211be178b.jpg</dc:image>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://www.foyafoya.com/rooms/presidental-suite">
+        <dc:type>Presidental Suite Rooms</dc:type>
+        <dc:price>IDR 12.000.000</dc:price>
+        <dc:review>4.8</dc:review>
+        <dc:guest>5</dc:guest>
+        <dc:description>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, velit. Minima ullam eligendi aut nihil asperiores nisi incidunt obcaecati sequi corrupti nemo nostrum sunt, amet corporis? Eum vel necessitatibus ea?</dc:description>
+        <dc:image>https://media.beritagar.id/2019-12/badf226ccfe0e0a2a56c64a994211b6211be178b.jpg</dc:image>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://www.foyafoya.com/rooms/foya-suite">
+        <dc:type>Foya Suite Rooms</dc:type>
+        <dc:price>IDR 90.000.000</dc:price>
+        <dc:review>6.0</dc:review>
+        <dc:guest>1</dc:guest>
+        <dc:description>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, velit. Minima ullam eligendi aut nihil asperiores nisi incidunt obcaecati sequi corrupti nemo nostrum sunt, amet corporis? Eum vel necessitatibus ea?</dc:description>
+        <dc:image>https://media.beritagar.id/2019-12/badf226ccfe0e0a2a56c64a994211b6211be178b.jpg</dc:image>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://www.foyafoya.com/about-us/tamara">
+        <foaf:name>Tamir Rusydi Hega</foaf:name>
+        <foaf:nick>Tamara</foaf:nick>
+        <foaf:nim>201401069</foaf:nim>
+        <foaf:img>https://media.istockphoto.com/vectors/profile-picture-vector-illustration-vector-id587805156</foaf:img>
+        <dc:quote>Marilah berfoya-foya bersamaku</dc:quote>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://www.foyafoya.com/about-us/ewaldo">
+        <foaf:name>Ewaldo</foaf:name>
+        <foaf:nick>Aldo</foaf:nick>
+        <foaf:nim>201401048</foaf:nim>
+        <foaf:img>https://media.istockphoto.com/vectors/profile-picture-vector-illustration-vector-id587805156</foaf:img>
+        <dc:quote>Aduh, uhh, apa ya</dc:quote>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://www.foyafoya.com/about-us/teguh">
+        <foaf:name>Muhammad Teguh Sinulingga</foaf:name>
+        <foaf:nick>Teguh</foaf:nick>
+        <foaf:nim>201401057</foaf:nim>
+        <foaf:img>https://media.istockphoto.com/vectors/profile-picture-vector-illustration-vector-id587805156</foaf:img>
+        <dc:quote>EasyRDF tidak "easy" sama sekali</dc:quote>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://www.foyafoya.com/about-us/ridho">
+        <foaf:name>Muhammad Ridho Baihaki</foaf:name>
+        <foaf:nick>Ridho</foaf:nick>
+        <foaf:nim>201401054</foaf:nim>
+        <foaf:img>https://media.istockphoto.com/vectors/profile-picture-vector-illustration-vector-id587805156</foaf:img>
+        <dc:quote>jangan lupa makan</dc:quote>
+    </rdf:Description>
 </rdf:RDF>
