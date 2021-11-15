@@ -96,6 +96,13 @@
         <dc:image>https://media.beritagar.id/2019-12/badf226ccfe0e0a2a56c64a994211b6211be178b.jpg</dc:image>
     </rdf:Description>
 
+    <rdf:Description rdf:about="https://www.foyafoya.com/about-us/">
+        <foaf:crew rdf:resource="https://www.foyafoya.com/about-us/tamara" />
+        <foaf:crew rdf:resource="https://www.foyafoya.com/about-us/aldo" />
+        <foaf:crew rdf:resource="https://www.foyafoya.com/about-us/teguh" />
+        <foaf:crew rdf:resource="https://www.foyafoya.com/about-us/ridho" />
+    </rdf:Description>
+
     <rdf:Description rdf:about="https://www.foyafoya.com/about-us/tamara">
         <foaf:name>Tamir Rusydi Hega</foaf:name>
         <foaf:nick>Tamara</foaf:nick>
@@ -104,7 +111,7 @@
         <dc:quote>Marilah berfoya-foya bersamaku</dc:quote>
     </rdf:Description>
 
-    <rdf:Description rdf:about="https://www.foyafoya.com/about-us/ewaldo">
+    <rdf:Description rdf:about="https://www.foyafoya.com/about-us/aldo">
         <foaf:name>Ewaldo</foaf:name>
         <foaf:nick>Aldo</foaf:nick>
         <foaf:nim>201401048</foaf:nim>
@@ -117,7 +124,7 @@
         <foaf:nick>Teguh</foaf:nick>
         <foaf:nim>201401057</foaf:nim>
         <foaf:img>https://media.istockphoto.com/vectors/profile-picture-vector-illustration-vector-id587805156</foaf:img>
-        <dc:quote>EasyRDF tidak "easy" sama sekali</dc:quote>
+        <dc:quote>EasyRDF tidak easy sama sekali</dc:quote>
     </rdf:Description>
 
     <rdf:Description rdf:about="https://www.foyafoya.com/about-us/ridho">
